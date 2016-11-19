@@ -32,3 +32,19 @@ i've found some tutorials related to using it.some firmwares, like a upython por
 #### links:
 * [hackaday](http://hackaday.com/2015/03/18/how-to-directly-program-an-inexpensive-esp8266-wifi-module)
 * [nurdspace]( https://nurdspace.nl/ESP8266 )
+
+## 2. **adjust the interior temperature of the car**
+the LM35 is an integrated circuit sensor that can be used to measure temperature with an electrical output proportional to the temperature (in OC).
+
+
+### components needed to build the LM35 temperature sensor circuit:
+* arduino board
+* LM35 temperature sensor IC
+* usb with type A&B connectors
+
+
+### details:
+LM35 temperature sensor can be measured.
+we will integrate this with the arduino to measure the temperature.
+the arduino will then read this measure value from the LM35 & translate into degrees fahrenheit and celsius, 
+which we will be able to read from the computer from the arduino serial monitor.
